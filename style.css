@@ -1,0 +1,37 @@
+html {
+background-color: darkkhaki;
+font-family: system-ui;
+text-align: center;
+}
+    
+h1 {
+text-decoration: underline;
+text-decoration-color: aqua;
+}
+    
+input[type="text"], input[type="number"]{
+width: 300px;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+color: black;
+}
+                
+input[type="button"] {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 300px;
+opacity: 0.9;
+}
+                
+input[type="button"]:hover {
+opacity: 1;
+}
+
+canvas {
+background-color: white;
+}

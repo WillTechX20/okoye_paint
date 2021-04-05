@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OkoyePaint</title>
+        <meta name="veiwport" content="wdith=device-width, intial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>OkoyePaint</h1>
+        <canvas width="800" height="800"></canvas>
+        <div>
+            <span>
+                <label for="line_color"></label>
+                <input type="color" id="line_color" oninput="lineColor=this.value; drawingCanvasCTX2D.strokeStyle=this.value;" value="#FF0000">
+            </span>
+            <span>
+                <input type="number" min="1" max="10" placeholder="Line Width" oninput="lineWidthNum=this.value; drawingCanvasCTX2D.lineWidth=this.value;" value="2">
+            </span>
+            <input type="button" value="Clear" onclick="clearArea();">
+        </div>
+        <div class="script">
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>
